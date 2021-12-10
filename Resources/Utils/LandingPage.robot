@@ -6,7 +6,8 @@ Resource   Common.robot
 
 Verify Landing Page
     Wait Until Page Contains    Jupiter Staging  timeout=30
-    Click Text    While using the app
+    Log Source
+    Wait And Click Element On Android  xpath=//android.widget.Button[@text="While using the app"]
     Log Source
     Capture Page Screenshot     start.png
     Wait And Click Element On Android  xpath=//android.widget.TextView[@text="Start"]
