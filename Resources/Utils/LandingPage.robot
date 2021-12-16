@@ -16,11 +16,7 @@ Verify Landing Page
     Wait And Click Element On Android  xpath=//android.widget.Button[@text="Allow"]
     Wait For Element Visibility On Android  xpath=//android.widget.TextView[@text="Verify your mobile"]
     Capture Page Screenshot    mobile_number_page.png
-    Log Source
     Enter Mobile Number
-    Log Source
-    Capture Page Screenshot    textview.png
-    Wait And Click Element On Android  xpath=//android.view.ViewGroup[3]/android.view.ViewGroup/android.widget.TextView
     Wait And Click Element On Android  xpath=//android.widget.TextView[@text="Verify"]
     Wait And Click Element On Android    xpath=//android.widget.TextView[@text = "Alright"]
     Wait Until Page Contains Element    xpath=//android.widget.TextView[@text="Continue"]  timeout=50
