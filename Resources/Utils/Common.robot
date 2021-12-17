@@ -9,7 +9,7 @@ Resource   ../../AppLocators/CommonAppLocators.robot
 
 Open Jupiter Money App
     Open Application  ${server}  platformName=${platform}  platformVersion=${platform_version}  deviceName=${device}  automationName=${appium}  appActivity=${app_activity}  appPackage=${app_package}  appWaitDuration=50000  appWaitForLaunch=true  noReset=False
-
+    # Open Application  ${server}  platformName=${platform}  platformVersion=${platform_version}  deviceName=${device}  automationName=${appium}  appActivity=${app_activity}  appPackage=${app_package}
 Verify Element And Text On Android
     [Arguments]  ${element}  ${text}
     Run Keyword And Continue On Failure  Element Should Contain Text  ${element}  ${text}
