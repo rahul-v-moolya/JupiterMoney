@@ -1,7 +1,7 @@
 *** Settings ***
 
 Library     JSONLibrary
-Library     AppiumLibrary
+Library     AppiumLibrary   timeout=10
 Library     Process
 Resource   ../../AppLocators/CommonAppLocators.robot
 
