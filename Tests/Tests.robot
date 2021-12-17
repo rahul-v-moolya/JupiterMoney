@@ -9,20 +9,14 @@ Test Teardown  Quit Jupiter Money App
 *** Test Cases ***
 
 #settings flow
-Verify Change MPIN Functionality Try 1
-    Verify Landing Page
+Verify Change MPIN Functionality for Samsung Try 1
+    Verify Landing Page for Samsung
 
-Verify Change MPIN Functionality Try 2
-    Verify Landing Page
+Verify Change MPIN Functionality for Samsung Try 2
+    Verify Landing Page for Samsung
 
-Verify Change MPIN Functionality Try 3
-    Verify Landing Page
+Verify Change MPIN Functionality for Samsung Try 3
+    Verify Landing Page for Samsung
 
-Verify Change MPIN Functionality Try 4
-    Verify Landing Page
-
-Verify Change MPIN Functionality Try 5
-    Verify Landing Page
-
-Verify Change MPIN Functionality Try 6
-    Verify Landing Page
+Verify Change MPIN Functionality for Samsung Try 4
+    Verify Landing Page for Samsung
