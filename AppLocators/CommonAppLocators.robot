@@ -2,9 +2,9 @@
 #Desired Capabilities
 ${server} =            http://localhost:4723/wd/hub
 ${platform} =          Android
-${platform_version} =  12.0
+${platform_version} =  11.0
 ${device} =            emulator-5554
-${device} =            RFCRA1D4SSW
+# ${device} =            RFCRA1D4SSW
 # ${device} =            da30e74
 ${app_package} =       money.jupiter.staging
 ${app_activity} =      money.jupiter.MainActivity

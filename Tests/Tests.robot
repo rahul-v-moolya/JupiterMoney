@@ -12,25 +12,27 @@ Test Teardown  Quit Jupiter Money App
 #settings flow
 
 Verify Landing Homepage in Emulator 1
-    Verify Landing Page
+    Verify Landing Page - Old
 
-Verify Landing Homepage in Emulator 2
-    Verify Landing Page
+# Verify Landing Homepage in Emulator 2
+#     Verify Landing Page
 
-Verify Landing Homepage in Emulator 3
-    Verify Landing Page
+# Verify Landing Homepage in Emulator 3
+#     Verify Landing Page
 
-Verify Landing Homepage in Emulator 4
-    Verify Landing Page
+# Verify Landing Homepage in Emulator 4
+#     Verify Landing Page
 
-Verify Landing Homepage in Emulator 5
-    Verify Landing Page
+# Verify Landing Homepage in Emulator 5
+#     Verify Landing Page
 
-Verify Landing Homepage in Emulator 6
-    Verify Landing Page
+# Verify Landing Homepage in Emulator 6
+#     Verify Landing Page
 
-Verify Landing Homepage in Emulator 7
-    Verify Landing Page
+# Verify Landing Homepage in Emulator 7
+#     Verify Landing Page
+
+# Verify Latest Landing Homepage
 
 # Verify Change MPIN Functionality for Samsung
 #     Verify Landing Page for Samsung

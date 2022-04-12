@@ -4,7 +4,7 @@ Resource   Common.robot
 
 *** Keywords ***
 
-Verify Landing Page
+Verify Landing Page - Old
     Wait Until Page Contains    Jupiter Staging  timeout=30
     Log Source
     Wait And Click Element On Android  xpath=//android.widget.Button[@text="While using the app"]
@@ -17,6 +17,28 @@ Verify Landing Page
     Wait For Element Visibility On Android  xpath=//android.widget.TextView[@text="Verify your mobile"]
     Capture Page Screenshot    mobile_number_page.png
     Enter Mobile Number
+    Wait And Click Element On Android  xpath=//android.widget.TextView[@text="Verify"]
+    Wait Until Page contains element    xpath=//android.widget.TextView[@text = "Alright"]  timeout=50
+    Click element    xpath=//android.widget.TextView[@text = "Alright"]
+    Wait Until Page Contains Element    xpath=//android.widget.TextView[@text="Continue"]  timeout=100
+    Click Element    xpath=//android.widget.TextView[@text="Continue"]
+    Wait Until Page Contains Element    xpath=//android.widget.TextView[@text="Recent transactions"]   timeout=250
+    Capture Page Screenshot    Home.png
+
+Verify Landing Page - New
+    Wait Until Page Contains    Jupiter Staging  timeout=30
+    Log Source
+    Wait And Click Element On Android  xpath=//android.widget.Button[@text="While using the app"]
+    Log Source
+    Capture Page Screenshot     start.png
+    Wait And Click Element On Android  xpath=//android.widget.TextView[@text="Start"]
+    Wait And Click Element On Android  xpath=//android.widget.TextView[@text="Allow"]
+    Wait And Click Element On Android  xpath=//android.widget.Button[@text="Allow"]
+    Wait And Click Element On Android  xpath=//android.widget.Button[@text="Allow"]
+    Wait For Element Visibility On Android  xpath=//android.widget.TextView[@text="Verify your mobile"]
+    Capture Page Screenshot    mobile_number_page.png
+    Enter Mobile Number
+    Wait And Click Element On Android   xpath=//android.widget.TextView[@text="My number is linked to Aadhaar"]
     Wait And Click Element On Android  xpath=//android.widget.TextView[@text="Verify"]
     Wait Until Page contains element    xpath=//android.widget.TextView[@text = "Alright"]  timeout=50
     Click element    xpath=//android.widget.TextView[@text = "Alright"]
